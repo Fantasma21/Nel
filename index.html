@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transcrição de Áudio</title>
+    <script defer src="{{ url_for('static', filename='script.js') }}"></script>
+</head>
+<body>
+    <h1>Gravar e Transcrever Áudio!!</h1>
+    <button onclick="startRecording()">Gravar</button>
+    <audio id="audioPlayback" controls></audio>
+    <p id="transcription"></p>
+</body>
+</html>
